@@ -96,5 +96,43 @@ body {
     padding-left: 6rem;
 }
 
+@media only screen and (max-width: 1250px) {
+    .card {
+        flex-direction: column-reverse;
+        height: auto;
+        width: 90%;
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .left-side {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pharagraph {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .stats {
+        width: 100%;
+        margin: 2rem 0 0 0;
+        flex-direction: column;
+    }
+
+    .stat {
+        margin-bottom: 2rem;
+    }
+
+
+    .img {
+        width: 100%;
+        height: 200px;
+        margin: 0 0 2rem 0;
+    }
+  }
+
 
 
